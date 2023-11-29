@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4facde24-4dba-427a-8f52-8bc971ce2042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hm">
+      <UniqueIdentifier>{f8cf185a-31f0-4dfe-a6cd-5fcd153c0a37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Complex.cpp">
+      <Filter>hm</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>hm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Complex.h">
+      <Filter>hm</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>hm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
