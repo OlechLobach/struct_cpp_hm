@@ -3,7 +3,7 @@
 #include "Car.h"
 
 void showMenu() {
-    std::cout << "Choose an option:\n"
+    cout << "Choose an option:\n"
         << "1. Complex Number Operations\n"
         << "2. Car Functions\n"
         << "3. Exit\n";
